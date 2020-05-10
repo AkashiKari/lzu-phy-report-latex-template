@@ -2,7 +2,7 @@
 
 A LaTeX template of report in required format. 
 
-由南京大学的实验报告模板改进而来。
+由浙江大学的实验报告模板改进而来。
 
 ## Usage
 
