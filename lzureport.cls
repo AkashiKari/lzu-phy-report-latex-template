@@ -1,4 +1,4 @@
-\ProvidesClass{zjureport}
+\ProvidesClass{lzureport}
 \LoadClass{ctexart}
 \RequirePackage{xeCJK}
 \RequirePackage{CJKnumb}
@@ -81,7 +81,7 @@
 \rhead{学号：\@stuid}
 
 % 下划线定义
-\def\zjuu[#1]#2{
+\def\lzuu[#1]#2{
   \underline{\hbox to #1{\hfil#2\hfil}}}
 
 % 首页头部
@@ -94,11 +94,11 @@
   \begin{minipage}{.3\linewidth}
     \raggedleft
     \begin{tabular*}{.8\linewidth}{ll}
-      专业： & \zjuu[70pt]\@major   \\
-      姓名： & \zjuu[70pt]\@name    \\
-      学号： & \zjuu[70pt]\@stuid   \\
-      日期： & \zjuu[70pt]\@date \\
-      地点： & \zjuu[70pt]\@lab
+      专业： & \lzuu[70pt]\@major   \\
+      姓名： & \lzuu[70pt]\@name    \\
+      学号： & \lzuu[70pt]\@stuid   \\
+      日期： & \lzuu[70pt]\@date \\
+      地点： & \lzuu[70pt]\@lab
     \end{tabular*}
   \end{minipage}
 \end{figure}
@@ -106,8 +106,8 @@
 \begin{table}[!htbp]
   \centering
   \begin{tabular*}{\linewidth}{llllll}
-    课程名称： & \zjuu[150pt]\@course   & 指导老师： & \zjuu[50pt]\@instructor   & 成绩：       &  \zjuu[50pt]\@grades \\
-    实验名称： & \zjuu[150pt]\@expname & 实验类型： &\zjuu[50pt]\@exptype & 同组学生姓名：& \zjuu[50pt]\@partner
+    课程名称： & \lzuu[150pt]\@course   & 指导老师： & \lzuu[50pt]\@instructor   & 成绩：       &  \lzuu[50pt]\@grades \\
+    实验名称： & \lzuu[150pt]\@expname & 实验类型： &\lzuu[50pt]\@exptype & 同组学生姓名：& \lzuu[50pt]\@partner
   \end{tabular*}
 \end{table}
 \thispagestyle{empty}
