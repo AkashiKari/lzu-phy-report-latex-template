@@ -26,6 +26,10 @@
 
 \setCJKmainfont[ItalicFont={KaiTi},BoldFont={SimHei}]{SimSun}
 
+% \setmainfont{851.TTF}
+% \setCJKmainfont[ItalicFont={851.TTF},BoldFont={851.TTF}]{851.TTF}
+% 这两行是改变字体。这里的851.TTF是一款手写字体
+
 \titleformat*{\section}{\large\bfseries}
 \titleformat*{\subsection}{\normalsize\bfseries}
 \titleformat*{\subsubsection}{\normalsize}
